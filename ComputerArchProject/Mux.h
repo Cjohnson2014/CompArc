@@ -4,8 +4,8 @@ public:
 	Mux();
 	~Mux();
 	bool control;
-	int pcin;
-	int pcout;
+	int in1;
+	int in0;
 	int out;
 private:
 
